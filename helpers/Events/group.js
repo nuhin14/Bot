@@ -17,9 +17,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
         isBotAdmin: true,
     }, async() => {
         let opts = {
-          open: ["buka", "open"],
-          close: ["tutup", "close"],
-          link: ["link","linkgroup","linkgc"],
+          open: ["buka", "o", "open"],
+          close: ["tutup", "c", "close"],
+          link: ["link","l","linkgroup","linkgc"],
           reset: ["resetlink","revokelink","revokeinvitelink"],
           locked: ["locked-change"],
           onephemeral: ["on-ephemeral"],
@@ -120,7 +120,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
 	})
 	
 	ev.on({ 
-        cmd: ['getpp'],
+        cmd: ['getpp','g'],
         listmenu: ['getpp'],
         tag: 'group',
         isMention: true
@@ -180,7 +180,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
         cht.reply(infos.group.on(cht.cmd, input))
 	})
 	ev.on({ 
-        cmd: ['antilink'],
+        cmd: ['antilink','a'],
         listmenu: ['antilink'],
         tag: 'group',
         args: infos.about.antilink,
