@@ -142,14 +142,14 @@ async function In({ cht,Exp,store,is,ev }) {
 		        memories.delItem(sender, "afk")
 		        break
 		    case is.antibot:
-                cht.warnGc({ type: "antibot", warn: "Bot terdeteksi!, harap aktifkan mute di group ini atau ubah mode menjadi self!", kick:"Anda akan dikeluarkan karena tidak menonaktifkan bot hingga peringatan terakhir!", max: 5 })
+                cht.warnGc({ type: "antibot", warn: "Bot terdeteksi!, harap aktifkan mute di group ini atau ubah mode menjadi self!", kick:"Anda akan dikeluarkan karena tidak menonaktifkan bot hingga peringatan terakhir!", max: 0 })
                 break
 			case is.antilink:
-                await cht.warnGc({ type: "antilink", warn: "Anda terdeteksi mengirimkan link!. Harap ikuti peraturan disini untuk tidak mengirim link!", kick:"Anda akan dikeluarkan karena melanggar peraturan grup untuk tidak mengirim link hingga peringatan terakhir!", max: 3})
+                await cht.warnGc({ type: "antilink", warn: "Anda terdeteksi mengirimkan link!. Harap ikuti peraturan disini untuk tidak mengirim link!", kick:"Anda akan dikeluarkan karena melanggar peraturan grup untuk tidak mengirim link hingga peringatan terakhir!", max: 0})
 				cht.delete()
 				break
 			case is.antiTagall:
-                await cht.warnGc({ type: "antitagall", warn: "Anda terdeteksi melakukan tagall/hidetag. Harap ikuti peraturan disini untuk tidak melakukan tagall/hidetag karena akan mengganggu member disini!", kick:"Anda akan dikeluarkan karena melanggar peraturan grup untuk tidak melakukan tagall/hidetag hingga peringatan terakhir!", max: 3})
+                await cht.warnGc({ type: "antitagall", warn: "Anda terdeteksi melakukan tagall/hidetag. Harap ikuti peraturan disini untuk tidak melakukan tagall/hidetag karena akan mengganggu member disini!", kick:"Anda akan dikeluarkan karena melanggar peraturan grup untuk tidak melakukan tagall/hidetag hingga peringatan terakhir!", max: 1})
 				cht.delete()
 				break
 			case isEvalSync:
