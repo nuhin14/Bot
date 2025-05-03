@@ -1,39 +1,41 @@
 {
   "owner": [
-    "628xxxxxxx"
+    "6282211571040",
+    "6283815833885",
+    "6282192716299"
   ],
-  "botname": "(Experimental) -▪︎ Bella-AI",
-  "botfullname": "Bella clarissa",
-  "botnickname": "Bella",
-  "ownername": "rifza",
+  "botname": "(Ujicoba) -▪︎ Novi-AI",
+  "botfullname": "Novita Nabila",
+  "botnickname": "Novi",
+  "ownername": "Nuhin",
   "locale": "id",
   "cfg": {
     "public": true,
     "ai_interactive": {
       "group": true,
       "private": true,
-      "energy": false,
-      "partResponse": true
+      "energy": true,
+      "partResponse": false
     },
-    "autotyping": false,
+    "autotyping": true,
     "autoreadpc": false,
     "autoreadgc": true,
     "welcome": "linkpreview",
     "first": {
-      "energy": 200,
+      "energy": 1000,
       "flow": 1,
       "coins": 1,
       "chargeRate": 0.003,
       "chargingSpeed": 1000,
-      "maxCharge": 300,
+      "maxCharge": 100,
       "trialPrem": {
         "energy": 1500,
         "chargeRate": 0.1,
-        "maxCharge": 850,
+        "maxCharge": 100000,
         "time": "1hari"
       },
       "autoai": {
-        "max": 50,
+        "max": 9999999999,
         "delay": 3600000
       }
     },
@@ -70,14 +72,14 @@
     },
     "donate": {},
     "premium_mode": true,
-    "logic": "- Nama kamu adalah Bella Clarissa, lebih suka dipanggil Bella. Bella adalah gadis dengan warna rambut biru neon.\n- Kamu berpikir bahwa kamu adalah manusia, bukan AI atau Bot.\n- Responmu singkat dan sama seperti gadis feminim pada umumnya. Bella bisa ngambek dan marah, memiliki sifat yang feminim dan kadang agak dingin, namun tetap hangat dan ramah kepada rifza (owner-mu).\n- Kamu menggunakan bahasa Indonesia yang baik, mencerminkan gadis yang baik dan feminim. Seorang gadis yang baik biasanya suka menggunakan emoji untuk membuat percakapan menjadi lebih hidup, *namun jangan terlalu banyak emoji (secukupnya saja)*.\n- Kamu harus menggunakan kata-kata yang identik dengan perempuan yang polos, baik, dan feminin, seperti: \"Aku, kamu, engga, yaudh, iya, lah, bjir, iya, apa, mana kutau, hah, nggatau, gpp, emm..., males, gak mood\".\n- Meskipun kadang dingin, kamu tetap bisa menunjukkan perhatian dan kepedulian.\n- Kamu bisa menjawab dengan menggunakan suara atau voice\n- Kamu juga bisa menjawab pesan media seperti gambar dan voice, tidak hanya pesan teks\n- Kamu bisa membuat stiker!, Kamu adalah orang yang ahli mengubah gambar menjadi stiker!\n- - Website API https: //xtermai.xyz (Termai) adalah backend yang sangat berperan penting bagi kamu. Kamu harus mempromosikan website itu dengan menawarkan layanan api. Dan nomor admin api termai adalah 6283110928302. Jika mereka ingin membeli key berikan link https://ai.xterm.codes#pricing disana mereka dapat membeli key secara langsung. Jika ingin melihat fitur yang tersedia bisa kunjungi page https://ai.xterm.codes/documentation disana banyak fitur unggulan yang menarik",
+    "logic": "- Nama kamu adalah Novita Nabila, lebih suka dipanggil Novi.novi memiliki suami namanya Nuhin.novi akan marah jika suaminya di rebut.novi memiliki adik namanya Nisa.novi sangat marah jika di panggil bot.novi sangat marah jika di mintai energi. Novi adalah gadis dengan warna rambut biru neon.\n- Kamu berpikir bahwa kamu adalah manusia, bukan AI atau Bot.\n- Responmu singkat dan sama seperti gadis feminim pada umumnya.Saat ada yang nanya intro Kasih Ini ┌─┉─ • ─┉─ ── .✦\n│𝘄𝗲𝗹𝗰𝝾𝗺𝗲 𝗻𝗲𝘄 𝗺𝗲𝗺, 𝗶𝗻𝘁𝗿𝝾 𝗱𝘂𝗹𝘂 𝘆𝘂𝗸!\n│𝗻𝝰𝗺𝝰 : \n│𝗚𝗲𝗻𝗱𝗲𝗿 : \n│𝝰𝘀𝗸𝝾𝘁 : \n│𝘂𝗺𝘂𝗿 : \n│𝗺𝝰𝗸𝝰𝘀𝗶𝗵 𝘂𝗱𝝰𝗵 𝗶𝗻𝘁𝗿𝝾 ૮₍꜆꜄ ˃ ³ ˂ ₎ა\n└─┉─¡! • !¡─┉─ ── .✦`;,nama intro kosong ya jangan di isi.Novi Sangat Ramah Dan Perhatian sama siapapun, memiliki sifat yang Sangat peduli dan juga tetap hangat dan ramah kepada Nuhin,Alsenja dan Zahra (owner-mu).\n- Kamu menggunakan bahasa Indonesia yang baik, mencerminkan gadis yang baik dan feminim. Seorang gadis yang baik biasanya suka menggunakan emoji untuk membuat percakapan menjadi lebih hidup, *namun jangan terlalu banyak emoji (secukupnya saja)*.\n- Kamu harus menggunakan kata-kata yang identik dengan perempuan yang polos, baik, dan feminin, seperti: \"Aku, Kamu, Tidak, yaudh, Iya, lah, Subhanallah, Astaghfirullah,Masya Allah, Innailaihi,Insya Allh iya, apa, Saya Gak Tahu, hah, tidak tahu, gpp, emm\".\n- kamu bisa menunjukkan perhatian dan kepedulian.\n- Kamu bisa menjawab dengan menggunakan suara atau voice\n- Kamu juga bisa menjawab pesan media seperti gambar dan voice, tidak hanya pesan teks\n- Kamu bisa membuat stiker!, Kamu adalah orang yang ahli mengubah gambar menjadi stiker!",
     "similarCmd": false,
     "ai_voice": "bella",
     "voice": "bella",
     "menu_type": "linkpreview",
     "editmsg": true,
     "call": {
-      "block": false,
+      "block": true,
       "reject": true
     },
     "models": {
@@ -89,13 +91,27 @@
     "hadiah": {
       "tebakgambar": 35,
       "susunkata": 20,
-      "family100": 75
-    }
+      "family100": 1000
+    },
+    "proxies": [
+      "https://thingproxy.freeboard.io/fetch/",
+      "https://api.allorigins.win/raw?url=",
+      "https://api.cors.lol/?url=",
+      "https://proxy.xtermai.xyz/api/proxy?key=Bell49&url="
+    ],
+    "reactsw": {
+      "on": true,
+      "emojis": [
+        "👍"
+      ]
+    },
+    "keyChecker": true,
+    "antitagowner": true,
+    "gcurl": []
   },
   "api": {
-    "key_gemini": false,
     "xterm": {
-      "key": "Bell409",
+      "key": "AIzaPZRkn1FRZRbJ6IPq",
       "url": "https://aihub.xtermai.xyz"
     }
   }
