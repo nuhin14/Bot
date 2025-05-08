@@ -5,7 +5,7 @@ const fs = "fs".import()
 const path = 'path'.import()
 
 /*!-======[ Path ]======-!
-  !- Semua halaman folder telah di definisikan disini
+  !- Semua halaman jad folder telah di definisikan disini
 */
 global['fol'] = {
     0: './toolkit/',
